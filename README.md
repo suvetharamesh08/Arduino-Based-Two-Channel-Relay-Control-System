@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 1. Project Overview
+ 1. Project Overview
 
 The **Dual-Channel Relay Control System Using Arduino UNO** is a basic embedded systems project designed to demonstrate automated switching operations using a two-channel relay module.
 
@@ -17,7 +17,7 @@ The system uses an Arduino UNO microcontroller to control two independent relay 
 
 This project demonstrates the practical implementation of digital output control, relay interfacing, timing operations, and basic electrical load automation.
 
-## 🎯 2. Project Objectives
+ 2. Project Objectives
 
 - To interface a two-channel relay module with Arduino UNO.
 - To understand the working principle of electromagnetic relays.
@@ -26,7 +26,7 @@ This project demonstrates the practical implementation of digital output control
 - To understand the role of relays in electrical load control.
 - To develop practical knowledge of embedded system programming.
 
-## 🛠️ 3. Hardware Requirements
+ 3. Hardware Requirements
 
 | S.No | Component | Quantity | Purpose |
 |---|---|---|---|
@@ -35,7 +35,7 @@ This project demonstrates the practical implementation of digital output control
 | 3 | Jumper Wires | As required | Electrical connections |
 | 4 | USB Cable | 1 | Programming and power supply |
 
-## 💻 4. Software Requirements
+ 💻 4. Software Requirements
 
 | Software | Purpose |
 |---|---|
@@ -43,7 +43,7 @@ This project demonstrates the practical implementation of digital output control
 | Embedded C/C++ | Programming language |
 | Arduino Serial/USB Interface | Communication with the board |
 
-## 🔌 5. Circuit Connections
+ 🔌 5. Circuit Connections
 
 The relay module is connected to the Arduino UNO using the following pin configuration.
 
@@ -96,7 +96,7 @@ The system maintains this state for another 2 seconds and repeats the complete s
 
 **Note:** The actual ON/OFF operation depends on the relay module's trigger logic. Many commonly available modules are active-LOW.
 
-## 💻 7. Arduino Source Code
+##  7. Arduino Source Code
 
 ```cpp
 int relay1 = 3;
@@ -123,7 +123,7 @@ void loop() {
 
 *Figure: Dual-Channel Relay Control System Using Arduino UNO*
 
-## 🔍 8. Code Explanation
+##  8. Code Explanation
 
 | Function | Description |
 |---|---|
@@ -133,7 +133,7 @@ void loop() {
 | `setup()` | Executes once during initialization |
 | `loop()` | Repeats the switching sequence continuously |
 
-## 📊 9. Expected Output
+##  9. Expected Output
 
 When the program is uploaded successfully:
 
@@ -142,7 +142,7 @@ When the program is uploaded successfully:
 - The relay module indicators respond according to the input signals.
 - The switching sequence continues until the Arduino is powered off or reset.
 
-## 🌍 10. Real-World Applications
+##  10. Real-World Applications
 
 The relay control technique demonstrated in this project can be extended to:
 
@@ -153,7 +153,7 @@ The relay control technique demonstrated in this project can be extended to:
 5. **IoT-Based Automation:** Remote appliance control using Wi-Fi-enabled microcontrollers.
 6. **Embedded Control Systems:** Digital switching applications in microcontroller-based projects.
 
-## 📈 11. Learning Outcomes
+## 11. Learning Outcomes
 
 By developing this project, I gained hands-on experience in:
 
@@ -164,7 +164,7 @@ By developing this project, I gained hands-on experience in:
 - Implementing time-based control operations.
 - Developing basic automation systems.
 
-## 🔮 12. Future Enhancements
+##  12. Future Enhancements
 
 The project can be further improved by incorporating:
 
@@ -174,26 +174,6 @@ The project can be further improved by incorporating:
 - Wi-Fi-based remote switching using ESP32.
 - Sensor-based automatic load control.
 - Mobile application integration for smart home automation.
-
-## ⚠️ 13. Safety Precautions
-
-- Verify the relay module's operating voltage before connecting it.
-- Ensure proper VCC and GND connections.
-- Check whether the relay module uses active-LOW or active-HIGH logic.
-- Avoid exceeding the relay's rated voltage and current.
-- Do not handle exposed mains AC wiring without appropriate electrical training and protection.
-
-## 📂 14. Repository Structure
-
-```text
-Dual-Channel-Relay-Control-Using-Arduino-UNO/
-│
-├── README.md
-├── relay1.ino
-└── relay-output.jpeg
-```
-
-
 
 ## ⭐ Acknowledgement
 
