@@ -96,27 +96,10 @@ The system maintains this state for another 2 seconds and repeats the complete s
 
 **Note:** The actual ON/OFF operation depends on the relay module's trigger logic. Many commonly available modules are active-LOW.
 
-##  7. Arduino Source Code
+## 💻 Arduino Code
 
-```cpp
-int relay1 = 3;
-int relay2 = 4;
+[View Arduino Code](./two_channel_relay.ino)
 
-void setup() {
-  pinMode(relay1, OUTPUT);
-  pinMode(relay2, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(relay1, LOW);
-  digitalWrite(relay2, LOW);
-  delay(2000);
-
-  digitalWrite(relay1, HIGH);
-  digitalWrite(relay2, HIGH);
-  delay(2000);
-}
-```
 ## 📷 Project Output
 
 ![Dual Channel Relay Control](RELAY.jpeg)
