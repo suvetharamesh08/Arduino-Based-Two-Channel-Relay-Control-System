@@ -9,7 +9,7 @@
 
 ---
 
- 1. Project Overview
+## 1. Project Overview
 
 The **Dual-Channel Relay Control System Using Arduino UNO** is a basic embedded systems project designed to demonstrate automated switching operations using a two-channel relay module.
 
@@ -17,7 +17,7 @@ The system uses an Arduino UNO microcontroller to control two independent relay 
 
 This project demonstrates the practical implementation of digital output control, relay interfacing, timing operations, and basic electrical load automation.
 
- 2. Project Objectives
+## 2. Project Objectives
 
 - To interface a two-channel relay module with Arduino UNO.
 - To understand the working principle of electromagnetic relays.
@@ -26,7 +26,7 @@ This project demonstrates the practical implementation of digital output control
 - To understand the role of relays in electrical load control.
 - To develop practical knowledge of embedded system programming.
 
- 3. Hardware Requirements
+## 3. Hardware Requirements
 
 | S.No | Component | Quantity | Purpose |
 |---|---|---|---|
@@ -35,7 +35,7 @@ This project demonstrates the practical implementation of digital output control
 | 3 | Jumper Wires | As required | Electrical connections |
 | 4 | USB Cable | 1 | Programming and power supply |
 
- 💻 4. Software Requirements
+ ## 4. Software Requirements
 
 | Software | Purpose |
 |---|---|
@@ -43,7 +43,7 @@ This project demonstrates the practical implementation of digital output control
 | Embedded C/C++ | Programming language |
 | Arduino Serial/USB Interface | Communication with the board |
 
- 🔌 5. Circuit Connections
+ ## 5. Circuit Connections
 
 The relay module is connected to the Arduino UNO using the following pin configuration.
 
