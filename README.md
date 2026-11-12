@@ -23,8 +23,6 @@ This project demonstrates the practical implementation of digital output control
 - To understand the working principle of electromagnetic relays.
 - To implement automated ON/OFF switching operations.
 - To control multiple relay channels using digital output signals.
-- To understand the role of relays in electrical load control.
-- To develop practical knowledge of embedded system programming.
 
 ## 3. Hardware Requirements
 
@@ -43,23 +41,6 @@ This project demonstrates the practical implementation of digital output control
 | Embedded C/C++ | Programming language |
 | Arduino Serial/USB Interface | Communication with the board |
 
- ## 5. Circuit Connections
-
-The relay module is connected to the Arduino UNO using the following pin configuration.
-
-| Relay Module Pin | Arduino UNO Pin |
-|---|---|
-| IN1 | Digital Pin 3 |
-| IN2 | Digital Pin 4 |
-| VCC | 5V (check module specifications) |
-| GND | GND |
-
-### Pin Configuration
-
-- **Relay 1:** Controlled through Digital Pin 3.
-- **Relay 2:** Controlled through Digital Pin 4.
-
-Both relay channels operate simultaneously according to the programmed switching sequence.
 
 ## ⚙️ 6. Working Principle
 
@@ -106,24 +87,6 @@ The system maintains this state for another 2 seconds and repeats the complete s
 
 *Figure: Dual-Channel Relay Control System Using Arduino UNO*
 
-##  8. Code Explanation
-
-| Function | Description |
-|---|---|
-| `pinMode()` | Configures Arduino pins as outputs |
-| `digitalWrite()` | Sends HIGH or LOW digital signals |
-| `delay(2000)` | Creates a 2-second delay |
-| `setup()` | Executes once during initialization |
-| `loop()` | Repeats the switching sequence continuously |
-
-##  9. Expected Output
-
-When the program is uploaded successfully:
-
-- Both relay channels change their states simultaneously.
-- The switching interval is 2 seconds.
-- The relay module indicators respond according to the input signals.
-- The switching sequence continues until the Arduino is powered off or reset.
 
 ##  10. Real-World Applications
 
@@ -144,8 +107,6 @@ By developing this project, I gained hands-on experience in:
 - Digital input/output configuration.
 - Relay module interfacing and switching logic.
 - Understanding HIGH and LOW digital signals.
-- Implementing time-based control operations.
-- Developing basic automation systems.
 
 ##  12. Future Enhancements
 
@@ -154,9 +115,7 @@ The project can be further improved by incorporating:
 - Independent control of each relay channel.
 - Push-button-based manual switching.
 - Bluetooth-based relay control.
-- Wi-Fi-based remote switching using ESP32.
-- Sensor-based automatic load control.
-- Mobile application integration for smart home automation.
+
 
 ## ⭐ Acknowledgement
 
